@@ -4,7 +4,7 @@
     font-family: "Cascadia Mono"!important;
     font-weight: 600;
     font-style: bold;
-    font-size: 17;
+    font-size: 16;
 }
 
 :root {
@@ -13,12 +13,11 @@
   --sfmtheme-secondary: #170027;
   --sfmtheme-secondary-alt:#170027;
   --sfmtheme-tertiary: #170027;
-  --sfmtheme-accent-color : #00fa0c;
+  --sfmtheme-accent-color : #b41d66;
   --sfmtheme-input-box: #25003f;
 
-  --sfmtheme-svg: #fffdfe;
-  --wildberry-less-hot: #00e1ff;
- 
+  --sfmtheme-svg: #b41d66;
+  --sfmtheme-less-hot: #00e1ff;
 }
 
 .theme-dark {
@@ -34,9 +33,7 @@
 
   /* Chat input box */
   --channeltextarea-background: var(--sfmtheme-input-box);
- 
-       
-    --text-link: var(--sfmtheme-secondary-alt);
+  --text-link: var(--sfmtheme-secondary-alt);
 }
 
 .theme-dark .pageWrapper-1PgVDX {
@@ -47,16 +44,16 @@
   background-color: var(--header-primary);
 }
 .theme-dark svg {
-  color: var(--wildberry-svg);
+  color: var(--sfmtheme-svg);
 }
 
 .theme-dark .icon-1DeIlz {
-color: var(--wildberry-svg);
+color: var(--sfmtheme-svg);
 }
 .theme-dark .icon-22AiRD {
-color: var(--wildberry-svg);
+color: var(--sfmtheme-svg);
 }
 
 .theme-dark .colorGrey-2DXtkV {
-  background-color: var(--wildberry-less-hot);
+  background-color: var(--sfmtheme-less-hot);
 }
