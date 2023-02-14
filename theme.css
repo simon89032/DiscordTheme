@@ -9,10 +9,10 @@
 :root {
   /* Color palette */
   --wildberry-primary: #170027;
-  --wildberry-secondary: #350058;
-  --wildberry-secondary-alt:#F40174;
-  --wildberry-tertiary: #4c007c;
-  --wildberry-accent-color : #00ffb7;
+  --wildberry-secondary: #270041;
+  --wildberry-secondary-alt:#170027;
+  --wildberry-tertiary: #170027;
+  --wildberry-accent-color : #003b93;
   --wildberry-input-box: #350058;
   --wildberry-mention:  #97004c;
   --wildberry-red: #ff6c5c;
@@ -39,7 +39,7 @@ html.theme-light::before {
   --background-floating: var(--wildberry-secondary);
   --background-tertiary: var(--wildberry-tertiary);
   --background-accent: var(--background-primary);
-  --background-mentioned-side:#00ffb76c;
+  --background-mentioned-side:#170027;
   /* --header-primary: var(--wildberry-accent-color); */
   --interactive-active: var(--wildberry-accent-color);
   --radio-group-dot-foreground: var(--wildberry-accent-color);
