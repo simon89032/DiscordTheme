@@ -1,7 +1,7 @@
-
+@import url(https://simon89032.github.io/DiscordTheme/CascadiaMono.ttf);
 @import url(https://simon89032.github.io/DiscordTheme/CascadiaCode.ttf);
 * {
-    font-family: "CascadiaMono"!important;
+    font-family: "Cascadia Mono"!important;
     font-weight: 600;
     font-style: bold;
     font-size: 17;
@@ -10,12 +10,22 @@
 :root {
   /* Color palette */
   --sfmtheme-primary: #170027;
-  --sfmtheme-secondary: #350058;
+  --sfmtheme-secondary: #170027;
   --sfmtheme-secondary-alt:#170027;
   --sfmtheme-tertiary: #170027;
   --sfmtheme-accent-color : #c500c2;
-  --sfmtheme-input-box: #170027;
-  
+  --sfmtheme-input-box: #c500c2;
+
+  --wildberry-primary: #170027;
+    --wildberry-secondary: #350058;
+    --wildberry-secondary-alt:#F40174;
+    --wildberry-tertiary: #4c007c;
+    --wildberry-accent-color : #00ffb7;
+    --wildberry-input-box: #350058;
+    --wildberry-mention:  #97004c;
+    --wildberry-red: #ff6c5c;
+    --wildberry-svg: #F40174;
+    --wildberry-less-hot: #cc0066;
 }
 html, body, .theme-dark {
   --background-primary: var(--sfmtheme-primary);
@@ -31,5 +41,27 @@ html, body, .theme-dark {
 
   /* Chat input box */
   --channeltextarea-background: var(--sfmtheme-input-box);
-  --text-link: var(--sfmtheme-secondary-alt);
+ 
+  --scrollbar-auto-thumb: var(--wildberry-scrollbar-thumb);
+    --scrollbar-auto-track: var(--wildberry-scrollbar-track);
+    --scrollbar-auto-scrollbar-color-thumb: var(--wildberry-scrollbar-thumb);
+    --scrollbar-auto-scrollbar-color-track: var(--wildberry-scrollbar-track);
+    
+    --text-link: var(--sfmtheme-secondary-alt);
+}
+
+/* Assets are all white*/
+.theme-dark svg {
+  color: var(--wildberry-svg);
+}
+
+.theme-dark .icon-1DeIlz {
+color: var(--wildberry-svg);
+}
+.theme-dark .icon-22AiRD {
+color: var(--wildberry-svg);
+}
+
+.theme-dark .colorGrey-2DXtkV {
+  background-color: var(--wildberry-less-hot);
 }
