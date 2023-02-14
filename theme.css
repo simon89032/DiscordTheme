@@ -1,14 +1,18 @@
 @import url(https://simon89032.github.io/DiscordTheme/CascadiaMono.ttf);
 
- 
+* {
+  font-family: "Cascadia Mono"!important;
+  font-weight: 600;
+  font-style: bold;
+}
  
 :root {
   /* Color palette */
   --wildberry-primary: #170027;
   --wildberry-secondary: #150023;
   --wildberry-secondary-alt:#170027;
-  --wildberry-tertiary: #ffffff;
-  --wildberry-accent-color : #428b1e;
+  --wildberry-tertiary: #170027;
+  --wildberry-accent-color : #5fef16;
   --wildberry-input-box: #350058;
   --wildberry-mention:  #97004c;
   --wildberry-red: #ff6c5c;
@@ -22,7 +26,6 @@
 }
 html.theme-light::before {
     content: "This is a dark mode theme. Maybe find a good light mod e theme lol";
-    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
     color: var(--wildberry-primary);
     text-align: center;
     position: absolute;
