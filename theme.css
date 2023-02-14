@@ -10,9 +10,9 @@
 :root {
   /* Color palette */
   --sfmtheme-primary: #170027;
-  --sfmtheme-secondary: #170027;
-  --sfmtheme-secondary-alt:#170027;
-  --sfmtheme-tertiary: #170027;
+  --sfmtheme-secondary: #00b850;
+  --sfmtheme-secondary-alt:#da4a4a;
+  --sfmtheme-tertiary: #9500ff;
   --sfmtheme-accent-color : #b41d66;
   --sfmtheme-input-box: #25003f;
 
@@ -35,23 +35,9 @@
   --channeltextarea-background: var(--sfmtheme-input-box);
   --text-link: var(--sfmtheme-secondary-alt);
 }
-
-.theme-dark .pageWrapper-1PgVDX {
-  background-color: var(--background-primary);
-}
-
-.theme-dark .item-2hkk8m {
-  background-color: var(--header-primary);
-}
+ 
 .theme-dark svg {
   color: var(--sfmtheme-svg);
-}
-
-.theme-dark .icon-1DeIlz {
-color: var(--sfmtheme-svg);
-}
-.theme-dark .icon-22AiRD {
-color: var(--sfmtheme-svg);
 }
 
 .theme-dark .colorGrey-2DXtkV {
