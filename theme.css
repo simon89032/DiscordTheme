@@ -4,7 +4,7 @@
     font-family: "CascadiaMono"!important;
 }
 
-.theme-dark {
+html, body, .theme-dark {
     --text-normal: #ffffff;
     --text-muted: #92038d;
     --background-primary: #f4f5fd;
