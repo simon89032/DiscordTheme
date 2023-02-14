@@ -18,16 +18,17 @@
 
   --sfmtheme-svg: #fffdfe;
   --wildberry-less-hot: #00e1ff;
+ 
 }
-html, body, .theme-dark {
+
+.theme-dark {
   --background-primary: var(--sfmtheme-primary);
   --background-secondary: var(--sfmtheme-secondary);
   --background-secondary-alt: var(--sfmtheme-secondary-alt);
   --background-floating: var(--sfmtheme-secondary);
   --background-tertiary: var(--sfmtheme-tertiary);
   --background-accent: var(--background-primary);
-  --background-mentioned-side:#595959;
-
+ 
   --interactive-active: var(--sfmtheme-accent-color);
   --radio-group-dot-foreground: var(--sfmtheme-accent-color);
 
@@ -38,12 +39,23 @@ html, body, .theme-dark {
     --text-link: var(--sfmtheme-secondary-alt);
 }
 
-/* Assets are all white*/
-.theme-dark svg {
-  color: var(--sfmtheme-svg);
+.theme-dark .pageWrapper-1PgVDX {
+  background-color: var(--background-primary);
 }
 
- 
+.theme-dark .item-2hkk8m {
+  background-color: var(--header-primary);
+}
+.theme-dark svg {
+  color: var(--wildberry-svg);
+}
+
+.theme-dark .icon-1DeIlz {
+color: var(--wildberry-svg);
+}
+.theme-dark .icon-22AiRD {
+color: var(--wildberry-svg);
+}
 
 .theme-dark .colorGrey-2DXtkV {
   background-color: var(--wildberry-less-hot);
