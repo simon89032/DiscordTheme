@@ -13,11 +13,11 @@
   --sfmtheme-secondary: #170027;
   --sfmtheme-secondary-alt:#170027;
   --sfmtheme-tertiary: #170027;
-  --sfmtheme-accent-color : #c500c2;
+  --sfmtheme-accent-color : #00fa0c;
   --sfmtheme-input-box: #25003f;
 
-  --wildberry-svg: #b60055;
-  --wildberry-less-hot: #cc0066;
+  --wildberry-svg: #c0015a;
+  --wildberry-less-hot: #00e1ff;
 }
 html, body, .theme-dark {
   --background-primary: var(--sfmtheme-primary);
@@ -26,7 +26,7 @@ html, body, .theme-dark {
   --background-floating: var(--sfmtheme-secondary);
   --background-tertiary: var(--sfmtheme-tertiary);
   --background-accent: var(--background-primary);
-  --background-mentioned-side:#25003f;
+  --background-mentioned-side:#a5a5a5;
 
   --interactive-active: var(--sfmtheme-accent-color);
   --radio-group-dot-foreground: var(--sfmtheme-accent-color);
@@ -34,11 +34,7 @@ html, body, .theme-dark {
   /* Chat input box */
   --channeltextarea-background: var(--sfmtheme-input-box);
  
-  --scrollbar-auto-thumb: var(--wildberry-scrollbar-thumb);
-    --scrollbar-auto-track: var(--wildberry-scrollbar-track);
-    --scrollbar-auto-scrollbar-color-thumb: var(--wildberry-scrollbar-thumb);
-    --scrollbar-auto-scrollbar-color-track: var(--wildberry-scrollbar-track);
-    
+       
     --text-link: var(--sfmtheme-secondary-alt);
 }
 
