@@ -14,18 +14,10 @@
   --sfmtheme-secondary-alt:#170027;
   --sfmtheme-tertiary: #170027;
   --sfmtheme-accent-color : #c500c2;
-  --sfmtheme-input-box: #c500c2;
+  --sfmtheme-input-box: #25003f;
 
-  --wildberry-primary: #170027;
-    --wildberry-secondary: #350058;
-    --wildberry-secondary-alt:#F40174;
-    --wildberry-tertiary: #4c007c;
-    --wildberry-accent-color : #00ffb7;
-    --wildberry-input-box: #350058;
-    --wildberry-mention:  #97004c;
-    --wildberry-red: #ff6c5c;
-    --wildberry-svg: #F40174;
-    --wildberry-less-hot: #cc0066;
+  --wildberry-svg: #b60055;
+  --wildberry-less-hot: #cc0066;
 }
 html, body, .theme-dark {
   --background-primary: var(--sfmtheme-primary);
@@ -34,7 +26,7 @@ html, body, .theme-dark {
   --background-floating: var(--sfmtheme-secondary);
   --background-tertiary: var(--sfmtheme-tertiary);
   --background-accent: var(--background-primary);
-  --background-mentioned-side:#00ffb76c;
+  --background-mentioned-side:#25003f;
 
   --interactive-active: var(--sfmtheme-accent-color);
   --radio-group-dot-foreground: var(--sfmtheme-accent-color);
