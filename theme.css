@@ -2,7 +2,7 @@
 @import url(https://simon89032.github.io/DiscordTheme/CascadiaCode.ttf);
 
 :root {
-  --Chat-Font-Used: "CascadiaCode"
+  --Chat-Font-Used: "CascadiaMono"
 }
 
 :not([class="hljs"]):not(code){
