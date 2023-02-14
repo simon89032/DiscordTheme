@@ -1,3 +1,18 @@
+
+@import url(https://simon89032.github.io/DiscordTheme/CascadiaCode.ttf);
+
+:root {
+  --Chat-Font-Used: "CascadiaCode"
+}
+
+:not([class="hljs"]):not(code){
+  font-family: var(--Chat-Font-Used)!important;
+}
+  
+.markup:not(code) {
+  font-size: var(--Chat-Font-Size)!important;
+}
+
 .theme-dark {
     --header-primary: var(--text-normal);
     --header-secondary: var(--text-muted);
