@@ -4,20 +4,17 @@
     font-family: "Cascadia Mono"!important;
     font-weight: 600;
     font-style: bold;
-    font-size: 2;
 }
 
 :root {
   /* Color palette */
   --sfmtheme-primary: #170027;
-  --sfmtheme-secondary: #00b850;
-  --sfmtheme-secondary-alt:#da4a4a;
-  --sfmtheme-tertiary: #9500ff;
+  --sfmtheme-secondary: #170027;
+  --sfmtheme-secondary-alt:#310054;
+  --sfmtheme-tertiary: #170027;
   --sfmtheme-accent-color : #b41d66;
-  --sfmtheme-input-box: #25003f;
-
-  --sfmtheme-svg: #b41d66;
-  --sfmtheme-less-hot: #00e1ff;
+  --sfmtheme-input-box: #310054;
+  --sfmtheme-svg: #ffffff;
 }
 
 .theme-dark {
@@ -33,13 +30,8 @@
 
   /* Chat input box */
   --channeltextarea-background: var(--sfmtheme-input-box);
-  --text-link: var(--sfmtheme-secondary-alt);
 }
  
 .theme-dark svg {
   color: var(--sfmtheme-svg);
-}
-
-.theme-dark .colorGrey-2DXtkV {
-  background-color: var(--sfmtheme-less-hot);
 }
