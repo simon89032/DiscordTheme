@@ -7,8 +7,8 @@
 .theme-dark {
     --header-primary: var(--text-normal);
     --header-secondary: var(--text-muted);
-    --text-normal: #b1bae6;
-    --text-muted: #565f89;
+    --text-normal: #ffffff;
+    --text-muted: #92038d;
     --text-positive: hsl(89, calc(var(--saturation-factor, 1)*51%),61%) !important;
     --text-warning: hsl(39, calc(var(--saturation-factor, 1)*66%), 64%) !important;
     --text-danger: hsl(349, calc(var(--saturation-factor, 1)*89%), 72%) !important;
@@ -30,8 +30,8 @@
     --interactive-active: #b5bad1;
     --interactive-muted: #55576b; 
     --channels-default: var(--text-muted);
-    --background-primary: #1a1b26;
-    --background-secondary: #171722;
+    --background-primary: #f4f5fd;
+    --background-secondary: #6e3252;
     --background-secondary-alt: #13131a;
     --background-tertiary: #16161e;
     --background-accent: #434461;
