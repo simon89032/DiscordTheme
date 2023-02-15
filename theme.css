@@ -21,9 +21,9 @@
 }
  
 
-.theme-dark {
-  --font-primary: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-display: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+:root .theme-dark {
+  --font-primary: "Cascadia Mono";
+  --font-display: "Cascadia Mono";
 
   --background-primary: var(--wildberry-primary);
   --background-secondary: var(--wildberry-secondary);
@@ -140,35 +140,7 @@ background-color: var(--wildberry-secondary-alt);
 .theme-dark rect[mask="url(#svg-mask-status-dnd)"] {
   fill: var(--wildberry-red);
 }
-/* Mention Badge*/
-.theme-dark .numberBadge-2s8kKX {
-  background-color: var(--wildberry-red) !important;
-}
-/* Search Modal */
-.theme-dark .open-6_Y_aH {
-  background-color: var(--background-secondary);
-}
-
-/* Quote */
-.theme-dark .blockquoteContainer-U5TVEi {
-  background-color: var(--background-tertiary);
-  
-}
-
-.theme-dark .blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
-background-color: var(--wildberry-secondary-alt);
-}
-
-/* New Reply*/
-.repliedMessage-VokQwo:before {
-  border-color: var(--wildberry-secondary-alt);
-}
-
-/* Context Menus*/
-.thin-1ybCId {
-  background-color: var(--background-secondary);
-}
-
+ 
 /* Folders are ugly */
 .theme-dark .folder-21wGz3 {
 background-color: var(--wildberry-secondary-alt);
@@ -177,5 +149,5 @@ background-color: var(--wildberry-secondary-alt);
 .theme-dark .expandedFolderIconWrapper-1xLaU- {
 color: white;
 }
- 
+
  
