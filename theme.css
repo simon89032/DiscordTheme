@@ -151,3 +151,9 @@ color: white;
 }
 
  
+.wordmarkWindows-2dq6rw svg {
+  position: fixed;
+  top: 3px;
+  left: 50%;
+  transform: translate(-50%);
+}
