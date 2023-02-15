@@ -1,10 +1,5 @@
 @import url(https://simon89032.github.io/DiscordTheme/CascadiaMono.ttf);
 
-* {
-  font-family: "Cascadia Mono"!important;
-  font-weight: 600;
-  font-style: bold;
-}
  
 :root {
   /* Color palette */
@@ -26,6 +21,7 @@
 }
 html.theme-light::before {
     content: "This is a dark mode theme. Maybe find a good light mod e theme lol";
+ 
     color: var(--wildberry-primary);
     text-align: center;
     position: absolute;
@@ -33,7 +29,10 @@ html.theme-light::before {
     right: 0;
     left: 0;
 }
-.theme-dark {
+:root .theme-dark {
+  --font-primary: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
   --background-primary: var(--wildberry-primary);
   --background-secondary: var(--wildberry-secondary);
   --background-secondary-alt: var(--wildberry-secondary-alt);
@@ -206,39 +205,4 @@ background-color: var(--wildberry-accent-color);
 .theme-dark .colorGrey-2DXtkV {
 background-color: var(--wildberry-less-hot);
 }
-
-/* Bot Tag */
-.botTagRegular-2HEhHi {
-transition: .5s;
-background: rgba(114,137,218,0.1);
-color: #7289da;
-}
-.botTagRegular-2HEhHi:hover {
-transition: .5s;
-background: #7289da;
-color: #fff;
-}
-
-/* Selection Menu Neutral */
-.passthrough-1c2ewQ.selected-2YhbGh  {
-background-color: #ffba00 !important;
-}
-
-.footer-1fjuF6 {
-border-top: none;
-}
-
-.theme-dark .hljs
-{
-display: block;
-overflow-x: auto;
-padding: 0.5em;
-/* background: rgb(80,31,122); */
-/* background: linear-gradient(166deg, rgba(80,31,122,1) 0%, rgba(40,32,179,1) 80%); */
-background-color: var(--wildberry-input-box);
-color:#e7e4eb;
-}
-
-.theme-dark .markup-2BOw-j code {
-border: 1px solid var(--wildberry-tertiary);
-}
+ 
